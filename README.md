@@ -4,6 +4,9 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/FlyMoon-evo/FlyMoon-evo/output/github-contribution-grid-snake.svg">
 </picture>
 
+ <!-- for beauty 留个空行好看点 -->
+  <div>&nbsp;</div>
+
 <!-- profile logo 个人资料徽标 -->
   <div>
     <a href="https://www.peterjxl.com/"><img src="https://img.shields.io/badge/Website-博客-8c36db" /></a>&emsp;
