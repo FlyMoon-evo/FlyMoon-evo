@@ -1,0 +1,30 @@
+name: Auto Commit
+
+# 设置触发条件
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天凌晨 0 点运行（格式：分 时 日 月 星期）
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 环境
+
+    steps:
+      # Step 1: 检出代码
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Step 2: 更新文件（例如添加日志）
+      - name: Update File
+        run: |
+          echo "Auto update on $(date)" >> auto_commit_log.txt
+
+      # Step 3: 提交更改并推送
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto commit on $(date)" || echo "Nothing to commit"
+          git push
