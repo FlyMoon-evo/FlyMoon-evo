@@ -15,7 +15,8 @@
     <img src="https://komarev.com/ghpvc/?username=FlyMoon-evo&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
   </div>
   
-># 仍然理解 **JavaScript**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&letterSpacing=&pause=1000&color=444444&background=1E1E1E8E&center=&vCenter=&multiline=true&repeat=&random=&width=435&lines=Still+making+sense+of+JavaScript)](https://git.io/typing-svg)
+
 <!-- profile-3d-contrib 3D 贡献图-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/profile-3d-contrib/profile-night-rainbow.svg" />
